@@ -1,6 +1,8 @@
 # 内容
 ## CSS
-层叠样式表，像重叠的峰峦一样，看到的是叠在前面的
+层叠样式表，像重叠的峰峦一样，看到的是叠在前面的。
+
+怎么找到它？通过选择器去找到对应的元素
 ## 选择器
 - class用.，id用#，普通标签直接写，多个标签用逗号隔开![alt text](img/image1.png)
 - 要选中某个标签中的某个class，如h1的class，用h1.class表示![alt text](img/image2.png)
@@ -9,7 +11,7 @@
 - 相邻兄弟选择器，用+连接，会选中后面相邻的兄弟，如#d+div，会选中id=d的元素相邻的div![alt text](img/image5.png)
 - 普通兄弟选择器，会选中后面的所有普通兄弟![alt text](img/image6.png)
 ## 伪元素
-用双冒号表示
+用双冒号表示，一个选择器只能有一个伪元素
 - p::first-letter,选中第一个字母进行控制![alt text](img/image7.png)
 - p::first-line,选中第一行进行控制，第一行会随着窗口的大小改变，改变后会重新渲染![alt text](img/image8.png)
 - ::marker,列表的标记框![alt text](img/image9.png)
