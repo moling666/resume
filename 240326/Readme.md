@@ -1,4 +1,6 @@
 # 内容
+## CSS
+层叠样式表，像重叠的峰峦一样，看到的是叠在前面的
 ## 选择器
 - class用.，id用#，普通标签直接写，多个标签用逗号隔开![alt text](img/image1.png)
 - 要选中某个标签中的某个class，如h1的class，用h1.class表示![alt text](img/image2.png)
