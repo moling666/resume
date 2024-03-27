@@ -18,3 +18,22 @@
 - ::selection,所选中的文本![alt text](img/image10.png)
 - p:nth-of-type(2)::selection,第二段被选中的部分，nth-of-type是指同类型标签的位置，前面的p让他精确到p标签![alt text](img/image11.png)
 - ::placeholder,选中input输入框的placeholder![alt text](img/image12.png)
+## Style
+样式有放在标签里的属性，放在head里的标签，单独的css文件
+应用的样式取决于最近的，就近原则![alt text](img/image13.png)
+
+- 盒子模型box-model
+
+    padding内间距，margin外间距，border厚度
+
+    单独写时，参数的顺序是上右下左，2个参数顺序为上下，左右
+
+    div块级元素，默认独占一行，span没有块级属性，行内元素内容多大就多大
+
+- pre标签
+
+    包裹的内容以原来的样子展示
+
+* * *
+感兴趣的样式
+![alt text](img/image14.png)![alt text](img/image15.png)
