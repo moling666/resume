@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+.clock{
+    height: 400px;
+    width: 400px;
+    border: 5px solid cadetblue;
+    border-radius: 50%;
+}
+
+.minute{
+    height: 100px;
+    width: 16px;
+    position: absolute;
+    top: 100px;
+    left: 192px;
+    background-color: brown;
+    transform-origin: center bottom;
+    animation: clock 3600s linear infinite;
+}
+
+.second{
+    height: 190px;
+    width: 2px;
+    position: absolute;
+    top: 10px;
+    left: 199px;
+    background-color: aqua;
+    transform-origin: center bottom;
+    animation: clock 60s linear infinite;
+}
+
+@keyframes clock{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

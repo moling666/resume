@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: white;
+    height: 60px;
+    border-bottom: 1px solid gray;
+}
+
+.nav li{
+    display: inline-block;
+    list-style: none;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 40px;
+}
+
+.nav li:hover{
+    border-bottom: 1px solid red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+main{
+    margin-top: 120px;
+}
+
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro{
+    max-width: 500px;
+    margin: 120px auto;
+}
+
+.avatar{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.bio{
+    margin-top: 10px;
+    font-size: small;
+    color: gray;
+}
+
+.bq{
+    margin: 120px auto;
+    width: 60%;
+}
+
+.small{
+    font-size: small;
+    text-align: center;
+    color: gray;
+    margin-bottom: 8px;
+}
+
+blockquote{
+    font-size: 23px;
+    font-family: Open Sans;
+    font-style: italic;
+    color: gray;
+    background-color: whitesmoke;
+    padding: 20px 30px 20px 100px;
+    border-left: 8px solid black;
+    position: relative;
+    line-height: 1.6;
+}
+
+blockquote span{
+    display: block;
+    color: black;
+    font-weight: bold;
+    margin-top: 16px;
+    font-style: normal;
+}
+
+blockquote p::before{
+    font-family: Arial;
+    content: "\201C";
+    color:black;
+    font-size: 50px;
+}
+
+blockquote p::after{
+    font-family: Arial;
+    content: "\201D";
+    color:black;
+    font-size: 50px;
+}
+
+@media(max-width: 768px){
+    .nav ul:last-child{
+        display: none;
+    }
+    .nav ul:first-child{
+        flex-grow : 1;
+        text-align: center;
+    }
+    .bq{
+        width: 100%;
+    }
+}

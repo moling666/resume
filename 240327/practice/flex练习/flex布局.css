@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+body,html{
+    height: 100%;
+}
+
+.flex-container{
+    max-width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+main{
+    display: flex;
+    margin-bottom: auto; 
+}
+
+p{
+    margin: 1rem;
+}
+
+aside{
+    margin: 1rem 2rem 1rem 1rem;
+    flex-shrink: 0;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+        flex-direction: column-reverse;
+    }
+}
