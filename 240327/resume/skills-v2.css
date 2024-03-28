@@ -1,0 +1,26 @@
+/* 技能条样式 */
+/* 输入隐藏 */
+.details .skills__item .right input {
+    display: none;
+}
+
+/* 标签样式 */
+.details .skills__item .right label {
+    /* 转换为行内块元素 */
+    display: inline-block;
+    /* 宽度 */
+    width: 20px;
+    /* 高度 */
+    height: 20px;
+    /* 背景色 */
+    background: #C3DEF3;
+    /* 圆角 */
+    border-radius: 20px;
+    /* 右边距 */
+    margin-right: 3px;
+}
+
+/* 选择时改变标签背景色 */
+.details .skills__item .right input:checked+label {
+    background: #79A9CE;
+}
