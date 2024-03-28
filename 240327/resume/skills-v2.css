@@ -8,7 +8,7 @@
 .details .skills__item .right label {
     /* 转换为行内块元素 */
     display: inline-block;
-    /* 宽度 */
+    /* 宽度  */
     width: 20px;
     /* 高度 */
     height: 20px;
